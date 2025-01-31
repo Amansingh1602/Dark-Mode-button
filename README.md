@@ -41,7 +41,7 @@ Clone the repository:
 bash
 Copy
 Edit
-git clone https://github.com/your-username/darkmode-button.git
+git clone https://github.com/Amansingh1602/darkmode-button.git
 cd darkmode-button
 Open index.html in your browser.
 
