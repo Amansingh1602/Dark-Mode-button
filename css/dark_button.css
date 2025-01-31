@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: background 0.5s;
+}
+
+body.light {
+    background-color: #e8e8e8;
+}
+
+body.dark {
+    background-color: #212121;
+}
+
+#btn {
+    padding: 10px 15px;
+    cursor: pointer;
+    border: 0;
+    outline: none;
+    background-color: #212121;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.25);
+}
